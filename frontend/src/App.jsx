@@ -55,7 +55,7 @@ function App() {
 
   try {
     const response = await fetch(
-      "http://127.0.0.1:8000/predict-csv",
+      "https://credit-risk-intelligence-q3se.onrender.com/predict-csv",
       {
         method: "POST",
         body: formData,
